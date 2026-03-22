@@ -1,82 +1,88 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Daniel Kang(TocoAI) profile banner" width="100%" />
+  <img src="./assets/hero.svg" alt="Daniel Kang(TocoAI) 포트폴리오 배너" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/K-Daniel-bot">GitHub</a> ·
-  <a href="https://github.com/K-Daniel-bot?tab=repositories">Repositories</a> ·
-  <a href="https://blog.naver.com/ejdnjs0930">Blog</a>
+  <a href="https://github.com/K-Daniel-bot">깃허브</a> ·
+  <a href="https://github.com/K-Daniel-bot?tab=repositories">저장소</a> ·
+  <a href="https://blog.naver.com/ejdnjs0930">블로그</a>
 </p>
 
 <p align="center">
-  🌐 Embark on an adventure with Toko AI.
+  조용한 화면에 오래 남는 온도를 담고 있습니다.
 </p>
 
-## About
+## 소개
 
-Daniel Kang(TocoAI)입니다.  
-K-Studio에서 AI와 제품 경험을 연결하는 작업을 하고 있습니다.  
-조용하지만 기억에 남는 화면, 읽히는 구조, 에이전트가 이해하기 쉬운 도구를 좋아합니다.
+안녕하세요. Daniel Kang(TocoAI)입니다.
 
-- Focus: AI agents, frontend systems, and automation
-- Style: calm visuals, clear hierarchy, small but sharp details
-- Now: research-first workflows and open-source tooling
+K-Studio에서 AI와 제품 경험이 자연스럽게 이어지는 화면을 만들고 있습니다.
 
-## Selected Work
+화려함보다 여운이 남는 화면을 좋아하고, 읽히는 구조와 부드러운 움직임을 끝까지 다듬는 편입니다.
 
-Open-source projects and experiments that reflect my current direction.
+- 하는 일: AI 에이전트, 프론트엔드 시스템, 자동화
+- 좋아하는 방식: 단정한 구조, 섬세한 움직임, 분명한 메시지
+- 지금: 연구 중심 워크플로와 오픈소스 도구를 다듬는 중
+
+## 선별한 작업
+
+지금의 방향을 가장 잘 보여주는 오픈소스 프로젝트와 실험들입니다.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>01. everything-claude-code</h3>
-      <p>The agent harness performance optimization system for Claude Code and beyond.</p>
-      <p><strong>Stack</strong>: JavaScript</p>
-      <p><a href="https://github.com/K-Daniel-bot/everything-claude-code">Code</a></p>
+      <p>Claude Code와 그 너머의 에이전트 작업 흐름을 다듬고 정리하는 시스템입니다.</p>
+      <p><strong>기술</strong>: JavaScript</p>
+      <p><a href="https://github.com/K-Daniel-bot/everything-claude-code">코드</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>02. openscreen</h3>
-      <p>Create stunning demos for free. Open-source, no watermarks, no subscriptions.</p>
-      <p><strong>Stack</strong>: TypeScript</p>
-      <p><a href="https://github.com/K-Daniel-bot/openscreen">Code</a></p>
+      <p>무료로 가볍고 선명한 데모를 만들 수 있는 오픈소스 도구입니다.</p>
+      <p><strong>기술</strong>: TypeScript</p>
+      <p><a href="https://github.com/K-Daniel-bot/openscreen">코드</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>03. Kakao-CLI</h3>
-      <p>CLI for KakaoTalk.app so an agent can send and receive k-messages.</p>
-      <p><strong>Stack</strong>: Swift</p>
-      <p><a href="https://github.com/K-Daniel-bot/Kakao-CLI">Code</a></p>
+      <p>에이전트가 카카오톡 메시지를 주고받을 수 있도록 연결한 CLI 도구입니다.</p>
+      <p><strong>기술</strong>: Swift</p>
+      <p><a href="https://github.com/K-Daniel-bot/Kakao-CLI">코드</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>04. autoresearch</h3>
-      <p>AI agents running research on single-GPU nanochat training automatically.</p>
-      <p><strong>Stack</strong>: Python</p>
-      <p><a href="https://github.com/K-Daniel-bot/autoresearch">Code</a></p>
+      <p>작은 자원에서도 연구 흐름이 끊기지 않도록 돕는 자동화 실험입니다.</p>
+      <p><strong>기술</strong>: Python</p>
+      <p><a href="https://github.com/K-Daniel-bot/autoresearch">코드</a></p>
     </td>
   </tr>
 </table>
 
-## Now
+## 지금
 
-- K-Studio work
-- Research-first agent workflows
-- Open-source tools with clean interfaces
+- K-Studio 작업
+- 연구 중심 에이전트 워크플로
+- 오픈소스 도구와 정제된 인터페이스
 
-## Skills
+## 기술
 
 `JavaScript` · `TypeScript` · `Python` · `Swift` · `React` · `Next.js` · `Tailwind CSS` · `SVG`
 
-## Contact
+## 연락
 
-- GitHub: [K-Daniel-bot](https://github.com/K-Daniel-bot)
-- Blog: [blog.naver.com/ejdnjs0930](https://blog.naver.com/ejdnjs0930)
+- 깃허브: [K-Daniel-bot](https://github.com/K-Daniel-bot)
+- 블로그: [blog.naver.com/ejdnjs0930](https://blog.naver.com/ejdnjs0930)
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="Decorative divider" width="100%" />
+  조용하지만 오래 남는 작업을 계속 만들고 있습니다.
 </p>
 
-<!-- Optional stats
+<p align="center">
+  <img src="./assets/divider.svg" alt="장식용 구분선" width="100%" />
+</p>
+
+<!-- 선택 사항: 통계 뱃지
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=K-Daniel-bot&show_icons=true&hide_border=true&title_color=7A6354&text_color=433B35&icon_color=9A8678&bg_color=00000000" />
 </p>

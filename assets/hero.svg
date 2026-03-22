@@ -1,70 +1,84 @@
-<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Daniel Kang(TocoAI) profile banner</title>
-  <desc id="desc">A soft warm gradient banner with editorial typography and abstract shapes for a portfolio README.</desc>
+<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Daniel Kang(TocoAI) 포트폴리오 배너</title>
+  <desc id="desc">차분한 색감과 금빛 포인트로 구성한 감성 포트폴리오 배너입니다.</desc>
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF9F1" />
-      <stop offset="0.48" stop-color="#F2E8DC" />
-      <stop offset="1" stop-color="#E5EEE8" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8F1" />
+      <stop offset="0.46" stop-color="#F2E7DB" />
+      <stop offset="1" stop-color="#E7EFE8" />
     </linearGradient>
 
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(970 110) rotate(90) scale(170 170)">
-      <stop stop-color="#C9B59C" stop-opacity="0.55" />
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 118) rotate(90) scale(176 176)">
+      <stop stop-color="#C8AE8F" stop-opacity="0.52" />
       <stop offset="1" stop-color="#C9B59C" stop-opacity="0" />
     </radialGradient>
 
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 310) rotate(90) scale(120 120)">
-      <stop stop-color="#9FB4A2" stop-opacity="0.50" />
-      <stop offset="1" stop-color="#9FB4A2" stop-opacity="0" />
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1030 320) rotate(90) scale(126 126)">
+      <stop stop-color="#97AE9F" stop-opacity="0.46" />
+      <stop offset="1" stop-color="#97AE9F" stop-opacity="0" />
     </radialGradient>
 
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 H 0 V 28" stroke="#7A6354" stroke-opacity="0.06" stroke-width="1" />
+    <pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.85" fill="#7A6354" fill-opacity="0.04" />
     </pattern>
 
     <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="18" />
+      <feGaussianBlur stdDeviation="20" />
     </filter>
   </defs>
 
-  <rect x="0" y="0" width="1200" height="420" rx="36" fill="url(#bg)" />
-  <rect x="0" y="0" width="1200" height="420" rx="36" fill="url(#grid)" opacity="0.7" />
+  <rect x="0" y="0" width="1200" height="440" rx="38" fill="url(#bg)" />
+  <rect x="0" y="0" width="1200" height="440" rx="38" fill="url(#grain)" opacity="0.85" />
+  <rect x="24" y="24" width="1152" height="392" rx="30" fill="none" stroke="#7A6354" stroke-opacity="0.12" />
 
-  <circle cx="980" cy="110" r="128" fill="url(#glowA)" filter="url(#blur)" />
-  <circle cx="1048" cy="308" r="96" fill="url(#glowB)" filter="url(#blur)" />
+  <circle cx="978" cy="118" r="142" fill="url(#glowA)" filter="url(#blur)" />
+  <circle cx="1032" cy="320" r="112" fill="url(#glowB)" filter="url(#blur)" />
 
-  <path d="M744 54C832 28 942 52 1000 118" stroke="#A37C5E" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round" />
-  <path d="M760 90C848 64 944 86 1010 146" stroke="#7E9A8C" stroke-opacity="0.14" stroke-width="2" stroke-linecap="round" />
-  <path d="M745 344C838 314 940 320 1008 372" stroke="#7A6354" stroke-opacity="0.12" stroke-width="2" stroke-linecap="round" />
+  <path d="M760 74C864 38 980 54 1050 130" stroke="#A37C5E" stroke-opacity="0.17" stroke-width="2" stroke-linecap="round" />
+  <path d="M772 112C872 80 972 92 1040 164" stroke="#7E9A8C" stroke-opacity="0.13" stroke-width="2" stroke-linecap="round" />
+  <path d="M756 344C854 316 958 320 1060 374" stroke="#7A6354" stroke-opacity="0.11" stroke-width="2" stroke-linecap="round" />
 
-  <rect x="72" y="84" width="92" height="34" rx="17" fill="#7A6354" fill-opacity="0.10" />
-  <text x="118" y="107" text-anchor="middle" fill="#7A6354" font-family="Georgia, serif" font-size="16" letter-spacing="2">PORTFOLIO</text>
+  <rect x="72" y="82" width="96" height="34" rx="17" fill="#7A6354" fill-opacity="0.10" stroke="#7A6354" stroke-opacity="0.10" />
+  <text x="120" y="105" text-anchor="middle" fill="#7A6354" font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="16" letter-spacing="1.2">포트폴리오</text>
 
-  <text x="72" y="176" fill="#2F2925" font-family="Georgia, serif" font-size="64" font-weight="700" letter-spacing="-1.6">
-    Daniel Kang(TocoAI)
+  <text x="72" y="184" fill="#2F2925" font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="62" font-weight="700" letter-spacing="-1.2">
+    조용한 감성, 오래 남는 인상
   </text>
-  <text x="72" y="227" fill="#4E453F" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="0.3">
-    K-Studio · AI agents · thoughtful interfaces
+  <text x="72" y="232" fill="#4E453F" font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="24" letter-spacing="0.1">
+    AI와 제품 경험을 잇는 포트폴리오
   </text>
-  <text x="72" y="262" fill="#6D6158" font-family="Arial, Helvetica, sans-serif" font-size="17">
-    Frontend · Storytelling · Motion · Details
+  <text x="72" y="266" fill="#6D6158" font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="17">
+    Daniel Kang(TocoAI) · K-Studio
   </text>
 
-  <g transform="translate(72 312)">
-    <rect x="0" y="0" width="136" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.45" stroke="#7A6354" stroke-opacity="0.10" />
-    <text x="68" y="25" text-anchor="middle" fill="#5B5048" font-family="Arial, Helvetica, sans-serif" font-size="16">Research-first</text>
+  <path d="M72 292H214" stroke="#B89474" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round" />
+  <text x="72" y="324" fill="#5E5249" font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="16">
+    화려함보다 여운이 남는 화면을 좋아합니다.
+  </text>
 
-    <rect x="150" y="0" width="132" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.42" stroke="#7A6354" stroke-opacity="0.10" />
-    <text x="216" y="25" text-anchor="middle" fill="#5B5048" font-family="Arial, Helvetica, sans-serif" font-size="16">Clean UI</text>
+  <g transform="translate(72 344)">
+    <rect x="0" y="0" width="146" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.42" stroke="#7A6354" stroke-opacity="0.10" />
+    <text x="73" y="25" text-anchor="middle" fill="#5B5048" font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="16">정제된 구조</text>
 
-    <rect x="296" y="0" width="154" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.42" stroke="#7A6354" stroke-opacity="0.10" />
-    <text x="373" y="25" text-anchor="middle" fill="#5B5048" font-family="Arial, Helvetica, sans-serif" font-size="16">Memorable Motion</text>
+    <rect x="162" y="0" width="150" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.40" stroke="#7A6354" stroke-opacity="0.10" />
+    <text x="237" y="25" text-anchor="middle" fill="#5B5048" font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="16">섬세한 움직임</text>
+
+    <rect x="326" y="0" width="154" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.40" stroke="#7A6354" stroke-opacity="0.10" />
+    <text x="403" y="25" text-anchor="middle" fill="#5B5048" font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="16">에이전트 도구</text>
   </g>
 
-  <circle cx="1086" cy="86" r="8" fill="#A37C5E" fill-opacity="0.35" />
-  <circle cx="1118" cy="122" r="4" fill="#7E9A8C" fill-opacity="0.50" />
-  <circle cx="1078" cy="170" r="5" fill="#A37C5E" fill-opacity="0.35" />
-  <circle cx="1112" cy="226" r="7" fill="#7A6354" fill-opacity="0.22" />
-  <circle cx="1038" cy="262" r="4" fill="#7E9A8C" fill-opacity="0.45" />
+  <g transform="translate(866 86)">
+    <circle cx="150" cy="144" r="118" fill="#FFFFFF" fill-opacity="0.22" stroke="#7A6354" stroke-opacity="0.14" stroke-width="2" />
+    <circle cx="150" cy="144" r="92" fill="none" stroke="#B89474" stroke-opacity="0.24" stroke-width="1.5" stroke-dasharray="2 8" />
+    <circle cx="150" cy="144" r="55" fill="#FFFFFF" fill-opacity="0.30" stroke="#7A6354" stroke-opacity="0.10" />
+    <text x="150" y="152" text-anchor="middle" fill="#2F2925" font-family="Georgia, serif" font-size="48" font-weight="700" letter-spacing="2">DK</text>
+    <text x="150" y="190" text-anchor="middle" fill="#6D6158" font-family="Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif" font-size="16" letter-spacing="1">TocoAI</text>
+  </g>
+
+  <circle cx="1088" cy="82" r="7" fill="#A37C5E" fill-opacity="0.28" />
+  <circle cx="1118" cy="120" r="4" fill="#7E9A8C" fill-opacity="0.45" />
+  <circle cx="1078" cy="170" r="5" fill="#A37C5E" fill-opacity="0.28" />
+  <circle cx="1112" cy="226" r="7" fill="#7A6354" fill-opacity="0.18" />
+  <circle cx="1038" cy="262" r="4" fill="#7E9A8C" fill-opacity="0.40" />
 </svg>
