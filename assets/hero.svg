@@ -1,0 +1,70 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Daniel Kang(TocoAI) profile banner</title>
+  <desc id="desc">A soft warm gradient banner with editorial typography and abstract shapes for a portfolio README.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9F1" />
+      <stop offset="0.48" stop-color="#F2E8DC" />
+      <stop offset="1" stop-color="#E5EEE8" />
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(970 110) rotate(90) scale(170 170)">
+      <stop stop-color="#C9B59C" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#C9B59C" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 310) rotate(90) scale(120 120)">
+      <stop stop-color="#9FB4A2" stop-opacity="0.50" />
+      <stop offset="1" stop-color="#9FB4A2" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 H 0 V 28" stroke="#7A6354" stroke-opacity="0.06" stroke-width="1" />
+    </pattern>
+
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="420" rx="36" fill="url(#bg)" />
+  <rect x="0" y="0" width="1200" height="420" rx="36" fill="url(#grid)" opacity="0.7" />
+
+  <circle cx="980" cy="110" r="128" fill="url(#glowA)" filter="url(#blur)" />
+  <circle cx="1048" cy="308" r="96" fill="url(#glowB)" filter="url(#blur)" />
+
+  <path d="M744 54C832 28 942 52 1000 118" stroke="#A37C5E" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round" />
+  <path d="M760 90C848 64 944 86 1010 146" stroke="#7E9A8C" stroke-opacity="0.14" stroke-width="2" stroke-linecap="round" />
+  <path d="M745 344C838 314 940 320 1008 372" stroke="#7A6354" stroke-opacity="0.12" stroke-width="2" stroke-linecap="round" />
+
+  <rect x="72" y="84" width="92" height="34" rx="17" fill="#7A6354" fill-opacity="0.10" />
+  <text x="118" y="107" text-anchor="middle" fill="#7A6354" font-family="Georgia, serif" font-size="16" letter-spacing="2">PORTFOLIO</text>
+
+  <text x="72" y="176" fill="#2F2925" font-family="Georgia, serif" font-size="64" font-weight="700" letter-spacing="-1.6">
+    Daniel Kang(TocoAI)
+  </text>
+  <text x="72" y="227" fill="#4E453F" font-family="Arial, Helvetica, sans-serif" font-size="24" letter-spacing="0.3">
+    K-Studio · AI agents · thoughtful interfaces
+  </text>
+  <text x="72" y="262" fill="#6D6158" font-family="Arial, Helvetica, sans-serif" font-size="17">
+    Frontend · Storytelling · Motion · Details
+  </text>
+
+  <g transform="translate(72 312)">
+    <rect x="0" y="0" width="136" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.45" stroke="#7A6354" stroke-opacity="0.10" />
+    <text x="68" y="25" text-anchor="middle" fill="#5B5048" font-family="Arial, Helvetica, sans-serif" font-size="16">Research-first</text>
+
+    <rect x="150" y="0" width="132" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.42" stroke="#7A6354" stroke-opacity="0.10" />
+    <text x="216" y="25" text-anchor="middle" fill="#5B5048" font-family="Arial, Helvetica, sans-serif" font-size="16">Clean UI</text>
+
+    <rect x="296" y="0" width="154" height="40" rx="20" fill="#FFFFFF" fill-opacity="0.42" stroke="#7A6354" stroke-opacity="0.10" />
+    <text x="373" y="25" text-anchor="middle" fill="#5B5048" font-family="Arial, Helvetica, sans-serif" font-size="16">Memorable Motion</text>
+  </g>
+
+  <circle cx="1086" cy="86" r="8" fill="#A37C5E" fill-opacity="0.35" />
+  <circle cx="1118" cy="122" r="4" fill="#7E9A8C" fill-opacity="0.50" />
+  <circle cx="1078" cy="170" r="5" fill="#A37C5E" fill-opacity="0.35" />
+  <circle cx="1112" cy="226" r="7" fill="#7A6354" fill-opacity="0.22" />
+  <circle cx="1038" cy="262" r="4" fill="#7E9A8C" fill-opacity="0.45" />
+</svg>

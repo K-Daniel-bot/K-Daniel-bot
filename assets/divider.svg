@@ -1,0 +1,19 @@
+<svg width="1200" height="36" viewBox="0 0 1200 36" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Decorative divider</title>
+  <desc id="desc">A minimal divider line for the profile README.</desc>
+
+  <defs>
+    <linearGradient id="line" x1="0" y1="18" x2="1200" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7A6354" stop-opacity="0" />
+      <stop offset="0.2" stop-color="#7A6354" stop-opacity="0.20" />
+      <stop offset="0.5" stop-color="#7A6354" stop-opacity="0.35" />
+      <stop offset="0.8" stop-color="#7A6354" stop-opacity="0.20" />
+      <stop offset="1" stop-color="#7A6354" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <path d="M40 18H548" stroke="url(#line)" stroke-width="2" stroke-linecap="round" />
+  <path d="M652 18H1160" stroke="url(#line)" stroke-width="2" stroke-linecap="round" />
+  <circle cx="600" cy="18" r="6" fill="#A37C5E" fill-opacity="0.42" />
+  <circle cx="600" cy="18" r="12" stroke="#A37C5E" stroke-opacity="0.12" />
+</svg>
